@@ -1,0 +1,265 @@
+﻿@{
+    ViewData["Title"] = "Favorites";
+}
+
+<section class="favorites py-5">
+    <div class="container">
+        <h2 class="text-center mb-5"><span class="border-bottom border-3 border-primary pb-2">My Favorite Books</span></h2>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book1.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book2.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book3.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book6.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book7.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book9.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book4.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-3 position-relative"
+                             onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                             style="cursor: pointer;">
+                            <a href="#" class="text-danger position-absolute"
+                               style="top: 10px; right: 10px; z-index: 2;"
+                               onclick="event.stopPropagation()">
+                                <i class="fas fa-heart"></i>
+                            </a>
+
+                            <img src="~/image/book6.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                            <div class="text-center mt-3">
+                                <h5 class="mb-2">Book Title 1</h5>
+                                <div class="mb-3">
+                                    <span class="fw-bold">£15.99</span>
+                                    <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-2"
+                                    onclick="event.stopPropagation(); addToCart(1);"
+                                    style="cursor: default !important;">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script>
+    function addToCart(bookId) {
+        console.log("Added book", bookId, "to cart");
+    }
+</script>

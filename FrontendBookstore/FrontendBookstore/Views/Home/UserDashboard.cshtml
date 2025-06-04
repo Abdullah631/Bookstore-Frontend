@@ -1,0 +1,158 @@
+﻿@{
+    ViewData["Title"] = "User Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <img src="~/image/propic-1.jpeg" class="rounded-circle mb-3" width="120" alt="User Avatar">
+                    <h5 class="card-title">Name</h5>
+                    <div class="list-group list-group-flush">
+                        <a href="#profile" class="list-group-item list-group-item-action active" data-bs-toggle="tab">
+                            <i class="fas fa-user me-2"></i>Profile
+                        </a>
+                        <a href="#password" class="list-group-item list-group-item-action" data-bs-toggle="tab">
+                            <i class="fas fa-key me-2"></i>Password
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="profile">
+                            <h4 class="mb-4"><i class="fas fa-user-edit me-2"></i>Edit Profile</h4>
+                            <form id="profileForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" value="John Doe">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control" value="john@example.com" disabled>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Phone Number</label>
+                                        <input type="tel" class="form-control" value="+1 (555) 123-4567">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Address Line 1</label>
+                                        <input type="text" class="form-control" value="123 Main St">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Address Line 2</label>
+                                        <input type="text" class="form-control" value="Apt 4B">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">City</label>
+                                        <input type="text" class="form-control" value="New York">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <label class="form-label">State/Province</label>
+                                        <input type="text" class="form-control" value="NY">
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label class="form-label">Zip/Postal Code</label>
+                                        <input type="text" class="form-control" value="10001">
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="countryInput" class="form-label">Country</label>
+                                        <input class="form-control" list="countryList" id="countryInput" value="Pakistan">
+                                    </div>
+                                </div>
+
+                                <div class="text-end mt-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-save me-2"></i>Save Changes
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="tab-pane fade" id="password">
+                            <h4 class="mb-4"><i class="fas fa-key me-2"></i>Change Password</h4>
+                            <form id="passwordForm">
+                                <div class="mb-3">
+                                    <label class="form-label">Current Password</label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" required>
+                                        <button class="btn btn-outline-secondary toggle-password" type="button">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">New Password</label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" required>
+                                        <button class="btn btn-outline-secondary toggle-password" type="button">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Confirm New Password</label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" required>
+                                        <button class="btn btn-outline-secondary toggle-password" type="button">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="text-end mt-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-save me-2"></i>Update Password
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.toggle-password').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const input = this.parentElement.querySelector('input');
+                    const type = input.getAttribute('type') === 'password' ? 'text' : 'password';
+                    input.setAttribute('type', type);
+                    this.querySelector('i').classList.toggle('fa-eye-slash');
+                });
+            });
+
+            document.getElementById('profileForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Profile updated successfully!');
+            });
+
+            document.getElementById('passwordForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Password changed successfully!');
+            });
+        });
+    </script>
+}

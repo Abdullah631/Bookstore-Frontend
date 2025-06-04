@@ -1,0 +1,162 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Register";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-8">
+            <div class="card shadow-lg mt-5">
+                <div class="card-body p-5">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-user-plus fa-3x text-primary mb-3"></i>
+                        <h2 class="fw-bold">Create Your Bookify Account</h2>
+                        <p class="text-muted">Join us to access exclusive features</p>
+                    </div>
+
+                    <form>
+                       
+
+                        <div class="mb-4">
+                            <h5 class="fw-bold mb-3"><i class="fas fa-id-card me-2"></i>Personal Information</h5>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                        <input type="tel" class="form-control" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="fw-bold mb-3"><i class="fas fa-lock me-2"></i>Security</h5>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="password" class="form-label">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                        <input type="password" class="form-control" id="password" required>
+                                        <button class="btn btn-outline-secondary toggle-password" type="button">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                    </div>
+                                    <div class="form-text">Minimum 8 characters</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="confirmPassword" class="form-label">Confirm Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                        <input type="password" class="form-control" id="confirmPassword" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="fw-bold mb-3"><i class="fas fa-map-marker-alt me-2"></i>Address Information</h5>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="address1" class="form-label">Address Line 1</label>
+                                    <input type="text" class="form-control" id="address1" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="address2" class="form-label">Address Line 2 (Optional)</label>
+                                    <input type="text" class="form-control" id="address2">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="city" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="city" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="state" class="form-label">State/Province</label>
+                                    <input type="text" class="form-control" id="state" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="zipCode" class="form-label">ZIP/Postal Code</label>
+                                    <input type="text" class="form-control" id="zipCode" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="countryInput" class="form-label">Country</label>
+                                    <input class="form-control" list="countryList" id="countryInput" placeholder="Type Your Country Name" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" required>
+                            <label class="form-check-label" for="terms">I agree to the <a href="@Url.Action("Privacy", "Home")" class="text-decoration-none">Terms and Conditions</a></label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 py-2 mb-3">
+                            <i class="fas fa-user-plus me-2"></i>Create Account
+                        </button>
+
+                        <div class="text-center mt-4">
+                            <p class="text-muted">
+                                Already have an account?
+                                <a href="@Url.Action("Login", "Home")" class="text-decoration-none fw-bold">Sign In</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const togglePassword = document.querySelector('.toggle-password');
+            const password = document.getElementById('password');
+
+            togglePassword.addEventListener('click', function() {
+                const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+                password.setAttribute('type', type);
+                this.querySelector('i').classList.toggle('fa-eye-slash');
+            });
+
+            const userTab = document.getElementById('user-tab');
+            const adminTab = document.getElementById('admin-tab');
+            const accountType = document.getElementById('accountType');
+
+            userTab.addEventListener('click', function() {
+                accountType.value = 'user';
+            });
+
+            adminTab.addEventListener('click', function() {
+                accountType.value = 'admin';
+            });
+
+            const form = document.querySelector('form');
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                console.log('Registration form submitted as:', accountType.value);
+
+                if (password.value !== document.getElementById('confirmPassword').value) {
+                    alert('Passwords do not match!');
+                    return;
+                }
+
+            });
+        });
+    </script>
+}

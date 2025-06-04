@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<section class="home py-5" id="home">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-3">Upto 75% off</h3>
+                <p class="mb-4">Details about all of the discounts and special occasions discounts will be displayed here.</p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+            <div class="col-md-6 position-relative">
+                <div class="swiper books-slider">
+                    <div class="swiper-wrapper">
+                        <a href="@Url.Action("BookDetails", "Home")" class="swiper-slide"><img src="~/image/book6.png" class="img-fluid"></a>
+                        <a href="@Url.Action("BookDetails", "Home")" class="swiper-slide"><img src="~/image/book1.png" class="img-fluid"></a>
+                        <a href="@Url.Action("BookDetails", "Home")" class="swiper-slide"><img src="~/image/book2.png" class="img-fluid"></a>
+                        <a href="@Url.Action("BookDetails", "Home")" class="swiper-slide"><img src="~/image/book3.png" class="img-fluid"></a>
+                        <a href="@Url.Action("BookDetails", "Home")" class="swiper-slide"><img src="~/image/book4.png" class="img-fluid"></a>
+                        <a href="@Url.Action("BookDetails", "Home")" class="swiper-slide"><img src="~/image/book5.png" class="img-fluid"></a>
+                    </div>
+                </div>
+                <img src="/image/shelf.png" class="stand" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="icons-container py-5 bg-light">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-3 col-6">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fas fa-plane fs-1 text-primary"></i>
+                    <div>
+                        <h5 class="mb-0">Fast Shipping</h5>
+                        <p class="mb-0">Order over $100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fas fa-lock fs-1 text-primary"></i>
+                    <div>
+                        <h5 class="mb-0">Secure Payment</h5>
+                        <p class="mb-0">100 secure payment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fas fa-redo-alt fs-1 text-primary"></i>
+                    <div>
+                        <h5 class="mb-0">Easy Returns</h5>
+                        <p class="mb-0">10 days returns</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="fas fa-headset fs-1 text-primary"></i>
+                    <div>
+                        <h5 class="mb-0">24/7 Support</h5>
+                        <p class="mb-0">Call us anytime</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="deal py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3 class="text-primary">Deal of the day</h3>
+                <h1 class="display-4 fw-bold mb-4">Upto 50% off</h1>
+                <p class="mb-4">Details about the book of the month will be displayed here.</p>
+                <a href="#" class="btn btn-primary btn-lg">Shop Now</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="~/image/bookofmonth.png" class="img-fluid" style="max-height: 400px;">
+            </div>
+        </div>
+    </div>
+</section>

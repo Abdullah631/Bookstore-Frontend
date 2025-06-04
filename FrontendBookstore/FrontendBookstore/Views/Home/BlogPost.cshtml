@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Blog Title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="text-center mb-5">
+                <h1 class="fw-bold mb-3">Blog Title Goes Here</h1>
+                <div class="d-flex justify-content-center align-items-center gap-3 text-muted">
+                    <span><i class="fas fa-user me-1"></i> Author Name</span>
+                    <span><i class="fas fa-calendar me-1"></i> October 15, 2023</span>
+                    <span><i class="fas fa-tag me-1"></i> Category</span>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <img src="~/image/blog1.png" class="img-fluid rounded-3 shadow-sm w-100" style="max-height: 500px; object-fit: cover;" alt="Blog Featured Image">
+            </div>
+
+            <article class="blog-content mb-5">
+                <p class="lead">This is the introduction paragraph that grabs the reader's attention and summarizes what the blog post is about.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+                <p>Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque. Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper.</p>
+                <div class="bg-light p-4 rounded-3 my-4">
+                    <h4 class="fst-italic">"This is an important quote or highlight from the blog post that you want to emphasize."</h4>
+                </div>
+                <p>Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+                <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+            </article>
+
+            <div class="mb-5">
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-secondary">Books</span>
+                    <span class="badge bg-secondary">Reading</span>
+                    <span class="badge bg-secondary">Literature</span>
+                    <span class="badge bg-secondary">Tips</span>
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm mb-5">
+                <div class="card-body">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="~/image/propic-1.jpeg" class="rounded-circle" width="80" height="80" alt="Author">
+                        <div>
+                            <h5 class="card-title mb-1">Author Name</h5>
+                            <p class="text-muted small">Senior Book Reviewer at Bookify</p>
+                            <p class="card-text">Author bio goes here with some information about the writer and their expertise in the field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .blog-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+            .blog-content h3 {
+                color: #333;
+                margin-top: 2rem;
+            }
+
+            .blog-content img {
+                max-width: 100%;
+                height: auto;
+            }
+    </style>
+}

@@ -1,0 +1,229 @@
+﻿@{
+    ViewData["Title"] = "Arrivals";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title"><i class="fas fa-check-circle me-2"></i>Success</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="successMessage">Updated successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="errorModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title"><i class="fas fa-exclamation-circle me-2"></i>Error</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="errorMessage">An error occurred while updating.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h5 class="modal-title"><i class="fas fa-exclamation-triangle me-2"></i>Confirm Delete</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this? This action cannot be undone.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="confirmDelete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fas fa-book me-2"></i>Books Management</h2>
+    <a asp-action="AddArrival" class="btn btn-primary">
+        <i class="fas fa-plus me-2"></i>Add New Arrival
+    </a>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover" id="booksTable">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Supplier</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-book-id="AR001">
+                        <td>AR001</td>
+                        <td>The Great Novel</td>
+                        <td>John Author</td>
+                        <td>
+                            <div class="input-group price-selector" style="width: 120px;">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control price-input" value="19.99" step="0.01" min="0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-group quantity-selector" style="width: 120px;">
+                                <input type="number" class="form-control text-center qty-input" value="45" min="0">
+                            </div>
+                        </td>
+                        <td>
+                            <input type="text" class="form-control supplier-input" value="Book Suppliers Inc.">
+                        </td>
+
+                        <td>
+                            <button class="btn btn-sm btn-success update-btn" title="Update">
+                                <i class="fas fa-save"></i> Update
+                            </button>
+                            <button class="btn btn-sm btn-outline-danger delete-btn" title="Delete">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr data-book-id="AR002">
+                        <td>AR002</td>
+                        <td>The Great Book</td>
+                        <td>John Author</td>
+                        <td>
+                            <div class="input-group price-selector" style="width: 120px;">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control price-input" value="19.99" step="0.01" min="0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-group quantity-selector" style="width: 120px;">
+                                <input type="number" class="form-control text-center qty-input" value="45" min="0">
+                            </div>
+                        </td>
+                        <td>
+                            <input type="text" class="form-control supplier-input" value="Book Suppliers Inc.">
+                        </td>
+
+                        <td>
+                            <button class="btn btn-sm btn-success update-btn" title="Update">
+                                <i class="fas fa-save"></i> Update
+                            </button>
+                            <button class="btn btn-sm btn-outline-danger delete-btn" title="Delete">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+            const errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+            const deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+
+            let bookToDelete = null;
+
+            document.querySelectorAll('.price-input').forEach(input => {
+                input.addEventListener('change', () => {
+                    if (parseFloat(input.value) < parseFloat(input.min)) {
+                        input.value = input.min;
+                    }
+                });
+            });
+
+            document.querySelectorAll('.update-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const row = this.closest('tr');
+                    const bookId = row.getAttribute('data-book-id');
+                    const newPrice = row.querySelector('.price-input').value;
+                    const newQuantity = row.querySelector('.qty-input').value;
+
+                    const isSuccess = Math.random() > 0.2;
+
+                    if (isSuccess) {
+                        document.getElementById('successMessage').textContent =
+                            `Book ${bookId} updated successfully! Price: $${newPrice}, Quantity: ${newQuantity}`;
+                        successModal.show();
+
+                        console.log(`Book ${bookId} updated - Price: $${newPrice}, Quantity: ${newQuantity}`);
+                    } else {
+                        document.getElementById('errorMessage').textContent =
+                            `Failed to update book ${bookId}. Please try again.`;
+                        errorModal.show();
+                    }
+                });
+            });
+
+            document.querySelectorAll('.delete-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const row = this.closest('tr');
+                    bookToDelete = row;
+                    deleteModal.show();
+                });
+            });
+
+            document.getElementById('confirmDelete').addEventListener('click', function() {
+                if (bookToDelete) {
+                    const bookId = bookToDelete.getAttribute('data-book-id');
+
+                    const isSuccess = Math.random() > 0.1;
+
+                    if (isSuccess) {
+                        bookToDelete.remove();
+
+                        document.getElementById('successMessage').textContent =
+                            `Book ${bookId} has been deleted successfully.`;
+                        successModal.show();
+                    } else {
+                        document.getElementById('errorMessage').textContent =
+                            `Failed to delete book ${bookId}. Please try again.`;
+                        errorModal.show();
+                    }
+
+                    deleteModal.hide();
+                    bookToDelete = null;
+                }
+            });
+        });
+    </script>
+}

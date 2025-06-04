@@ -1,0 +1,188 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container-fluid p-4">
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h2 class="mb-1"><i class="fas fa-tachometer-alt me-2"></i>Admin Dashboard</h2>
+                    <p class="text-muted mb-0">Welcome back to your control panel</p>
+                </div>
+                <div class="text-end">
+                    <span class="badge bg-primary fs-6 p-2" id="liveDateTime">
+                        <i class="fas fa-clock me-2"></i>
+                        <span id="currentDate"></span>
+                        <span id="currentTime"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0"><i class="fas fa-user-circle me-2"></i>Admin Profile</h5>
+                </div>
+                <div class="card-body text-center">
+                    <img src="~/image/admin-avatar.jpg" class="rounded-circle mb-3" width="120" alt="Admin Avatar">
+                    <h4>John Doe</h4>
+                    <p class="text-muted mb-1">Administrator</p>
+                    <p class="text-muted"><i class="fas fa-envelope me-2"></i>admin@bookify.com</p>
+
+                    <div class="d-flex justify-content-center gap-2 mt-3">
+                        <button class="btn btn-sm btn-outline-primary">
+                            <i class="fas fa-edit me-1"></i>Edit Profile
+                        </button>
+                        <button class="btn btn-sm btn-outline-secondary">
+                            <i class="fas fa-key me-1"></i>Change Password
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm h-100 border-start border-5 border-primary">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h6 class="text-muted">TOTAL BOOKS</h6>
+                                    <h3 class="mb-0">1,248</h3>
+                                </div>
+                                <div class="bg-primary bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-book fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <a asp-controller="Admin" asp-action="Books" class="text-decoration-none small">
+                                    View All Books <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm h-100 border-start border-5 border-success">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h6 class="text-muted">NEW ORDERS</h6>
+                                    <h3 class="mb-0">56</h3>
+                                </div>
+                                <div class="bg-success bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-shopping-cart fa-2x text-success"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <a asp-controller="Admin" asp-action="Orders" class="text-decoration-none small">
+                                    Manage Orders <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm h-100 border-start border-5 border-info">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h6 class="text-muted">NEW ARRIVALS</h6>
+                                    <h3 class="mb-0">24</h3>
+                                </div>
+                                <div class="bg-info bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-box-open fa-2x text-info"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <a asp-controller="Admin" asp-action="Arrivals" class="text-decoration-none small">
+                                    View Arrivals <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm h-100 border-start border-5 border-warning">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h6 class="text-muted">BLOG POSTS</h6>
+                                    <h3 class="mb-0">18</h3>
+                                </div>
+                                <div class="bg-warning bg-opacity-10 p-3 rounded">
+                                    <i class="fas fa-blog fa-2x text-warning"></i>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <a asp-controller="Admin" asp-action="Blogs" class="text-decoration-none small">
+                                    Manage Blogs <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mt-2">
+        <div class="card-header bg-light">
+            <h5 class="mb-0"><i class="fas fa-history me-2"></i>Recent Activity</h5>
+        </div>
+        <div class="card-body">
+            <div class="list-group list-group-flush">
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-book text-primary me-2"></i>
+                        <span>Added new book "The Midnight Library"</span>
+                    </div>
+                    <small class="text-muted">2 hours ago</small>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-shopping-cart text-success me-2"></i>
+                        <span>Order #ORD-10025 marked as delivered</span>
+                    </div>
+                    <small class="text-muted">5 hours ago</small>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-user text-info me-2"></i>
+                        <span>New user "sarah_j" registered</span>
+                    </div>
+                    <small class="text-muted">Yesterday</small>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-blog text-warning me-2"></i>
+                        <span>Published new blog post "Summer Reading List"</span>
+                    </div>
+                    <small class="text-muted">2 days ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            document.getElementById('currentDate').textContent = now.toLocaleDateString();
+            document.getElementById('currentTime').textContent = now.toLocaleTimeString();
+        }
+
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
+}

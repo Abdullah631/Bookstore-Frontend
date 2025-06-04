@@ -1,0 +1,79 @@
+﻿.admin-body {
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+}
+.main-content {
+    flex: 1;
+    margin-left: 250px;
+    transition: margin-left 0.3s ease;
+}
+.sidebar-collapsed .sidebar {
+    transform: translateX(-250px);
+}
+.sidebar-collapsed .main-content {
+    margin-left: 0;
+}
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-250px);
+    }
+
+    .sidebar-open .sidebar {
+        transform: translateX(0);
+    }
+
+    .sidebar-open .sidebar-overlay {
+        display: block;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem;
+}
+.modal {
+    z-index: 1060 !important;
+}

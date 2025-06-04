@@ -1,0 +1,556 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\favourites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\favourites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\bookdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\bookdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\blogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\blogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\blogpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\blogpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\home\\arrivals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\home\\arrivals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\manageblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\manageblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\books.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\books.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\arrivals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\arrivals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\addbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\addbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\addarrival.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\addarrival.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\views\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\views\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|c:\\users\\abdul\\downloads\\se22-nc-scd-project-task2-abdullah-m505-main\\se22-nc-scd-project-task2-abdullah-m505-main\\scd_project_bsef22m505\\frontendbookstore\\frontendbookstore\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A9B7C669-C203-4B0C-8BCC-952E4CE37945}|FrontendBookstore\\FrontendBookstore.csproj|solutionrelative:frontendbookstore\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFkAAAC4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T08:57:47.494Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Categories.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Categories.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Categories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T08:44:27.663Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "FrontendBookstore\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "FrontendBookstore\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-26T09:27:25.476Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\UserDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T17:49:08.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:39:52.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reviews.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Reviews.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Reviews.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Reviews.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Reviews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T08:44:45.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T05:40:40.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T06:25:00.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T05:40:27.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T09:10:20.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Favourites.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Favourites.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Favourites.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Favourites.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Favourites.cshtml",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAmwPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T05:41:38.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Checkout.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T05:42:17.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Cart.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Cart.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Cart.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T05:41:53.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\BookDetails.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\BookDetails.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\BookDetails.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\BookDetails.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T06:01:12.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Blogs.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Blogs.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Blogs.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Blogs.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Blogs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T08:45:00.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogPost.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\BlogPost.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\BlogPost.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\BlogPost.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\BlogPost.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T19:06:07.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Arrivals.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Arrivals.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Home\\Arrivals.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Home\\Arrivals.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Home\\Arrivals.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T08:45:18.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Settings.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Settings.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\Settings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:16:35.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\Orders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:15:58.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageBlogs.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\ManageBlogs.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\ManageBlogs.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\ManageBlogs.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\ManageBlogs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:16:15.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:26:06.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Books.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Books.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\Books.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Books.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\Books.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:14:04.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Arrivals.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Arrivals.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\Arrivals.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\Arrivals.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\Arrivals.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAANkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T07:06:19.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\AddBook.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\AddBook.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\AddBook.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\AddBook.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:47:25.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\AddBlog.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\AddBlog.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\AddBlog.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\AddBlog.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:47:57.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddArrival.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\AddArrival.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\AddArrival.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\AddArrival.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\AddArrival.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:47:46.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Views\\Admin\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Views\\Admin\\_ViewStart.cshtml",
+              "RelativeToolTip": "FrontendBookstore\\Views\\Admin\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:43:59.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "FrontendBookstore\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T17:46:52.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FrontendBookstore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T09:18:44.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FrontendBookstore\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FrontendBookstore\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwCYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T14:32:40.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FrontendBookstore\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FrontendBookstore\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T09:26:49.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "FrontendBookstore\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "FrontendBookstore\\wwwroot\\css\\admin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-01T15:18:04.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "FrontendBookstore\\wwwroot\\js\\admin.js",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\se22-nc-scd-project-task2-Abdullah-M505-main\\se22-nc-scd-project-task2-Abdullah-M505-main\\SCD_PROJECT_BSEF22M505\\FrontendBookstore\\FrontendBookstore\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "FrontendBookstore\\wwwroot\\js\\admin.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-01T15:17:35.228Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

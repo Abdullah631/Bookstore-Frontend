@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Add New Book";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="container-fluid p-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="fas fa-book me-2"></i>Add New Book</h2>
+        <a asp-action="Books" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Back to Books
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="bookTitle" class="form-label fw-bold">Book Title</label>
+                            <input type="text" class="form-control" id="bookTitle" placeholder="Enter book title" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bookAuthor" class="form-label fw-bold">Author</label>
+                            <input type="text" class="form-control" id="bookAuthor" placeholder="Enter author name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bookPrice" class="form-label fw-bold">Price ($)</label>
+                            <input type="number" step="0.01" class="form-control" id="bookPrice" placeholder="Enter price" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bookStock" class="form-label fw-bold">Stock Quantity</label>
+                            <input type="number" class="form-control" id="bookStock" placeholder="Enter quantity" required>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="bookImage" class="form-label fw-bold">Book Cover Image</label>
+                            <input type="file" class="form-control" id="bookImage" accept="image/*">
+                            <div class="mt-2 text-center">
+                                <img id="bookImagePreview" src="~/image/default-book.png" class="img-thumbnail" style="max-height: 200px; display: none;">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bookCategory" class="form-label fw-bold">Category</label>
+                            <select class="form-select" id="bookCategory" required>
+                                <option value="">Select category</option>
+                                <option value="fiction">Fiction</option>
+                                <option value="non-fiction">Non-Fiction</option>
+                                <option value="science">Science</option>
+                                <option value="biography">Biography</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="bookDescription" class="form-label fw-bold">Description</label>
+                    <textarea class="form-control" id="bookDescription" rows="5" placeholder="Enter book description" required></textarea>
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                    <button type="reset" class="btn btn-outline-danger me-md-2">
+                        <i class="fas fa-times me-2"></i>Reset
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save me-2"></i>Save Book
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('bookImage').addEventListener('change', function(e) {
+            const preview = document.getElementById('bookImagePreview');
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+}

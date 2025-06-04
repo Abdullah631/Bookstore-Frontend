@@ -1,0 +1,144 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.stand {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    z-index: -1;
+}
+
+.books-slider .swiper-slide {
+    width: 200px;
+}
+
+.featured-slider .swiper-slide {
+    width: 300px;
+}
+
+.arrivals-slider .swiper-slide {
+    width: 250px;
+}
+
+.reviews-slider .swiper-slide {
+    width: 350px;
+}
+
+.blogs-slider .swiper-slide {
+    width: 350px;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+    .bottom-navbar a {
+        color: #666;
+        font-size: 20px;
+    }
+
+.login-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+    opacity: 0;
+    pointer-events: none;
+}
+
+    .login-form-container.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1200;
+}
+
+#login-btn {
+    cursor: pointer;
+}
+
+#close-login-btn {
+    cursor: pointer;
+}
+
+#icons {
+    cursor: pointer;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card .btn-primary:hover {
+    cursor: default;
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+
+.favorite-btn {
+    transition: color 0.2s;
+    font-size: 1.2rem;
+}
+
+    .favorite-btn.active {
+        color: #dc3545 !important;
+    }
+
+    .favorite-btn i {
+        pointer-events: none;
+    }

@@ -1,0 +1,205 @@
+﻿@{
+    ViewData["Title"] = "Client Reviews";
+}
+<section class="reviews py-5 bg-light" id="reviews">
+    <div class="container">
+        <h2 class="text-center mb-5"><span class="border-bottom border-3 border-primary pb-2">Client's Reviews</span></h2>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4 text-center">
+                            <img src="~/image/propic-1.jpeg" class="rounded-circle mb-3" width="100" height="100">
+                            <h4 class="mb-3">John Deo</h4>
+                            <p class="mb-4">Review description will be displayed here in the form of paragraph.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4 text-center">
+                            <img src="~/image/propic-2.jpeg" class="rounded-circle mb-3" width="100" height="100">
+                            <h4 class="mb-3">John Deo</h4>
+                            <p class="mb-4">Review description will be displayed here in the form of paragraph.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4 text-center">
+                            <img src="~/image/propic-3.jpeg" class="rounded-circle mb-3" width="100" height="100">
+                            <h4 class="mb-3">John Deo</h4>
+                            <p class="mb-4">Review description will be displayed here in the form of paragraph.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4 text-center">
+                            <img src="~/image/propic-4.jpeg" class="rounded-circle mb-3" width="100" height="100">
+                            <h4 class="mb-3">John Deo</h4>
+                            <p class="mb-4">Review description will be displayed here in the form of paragraph.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4 text-center">
+                            <img src="~/image/propic-5.jpeg" class="rounded-circle mb-3" width="100" height="100">
+                            <h4 class="mb-3">John Deo</h4>
+                            <p class="mb-4">Review description will be displayed here in the form of paragraph.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4 text-center">
+                            <img src="~/image/propic-6.jpeg" class="rounded-circle mb-3" width="100" height="100">
+                            <h4 class="mb-3">John Deo</h4>
+                            <p class="mb-4">Review description will be displayed here in the form of paragraph.</p>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="text-center mb-4">Leave Your Review</h3>
+                        <form id="reviewForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Your Rating</label>
+                                <div class="rating-stars">
+                                    <div class="star-rating">
+                                        <input type="radio" id="5-stars" name="rating" value="5" />
+                                        <label for="5-stars" class="star"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="4-stars" name="rating" value="4" />
+                                        <label for="4-stars" class="star"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="3-stars" name="rating" value="3" />
+                                        <label for="3-stars" class="star"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="2-stars" name="rating" value="2" />
+                                        <label for="2-stars" class="star"><i class="fas fa-star"></i></label>
+                                        <input type="radio" id="1-star" name="rating" value="1" />
+                                        <label for="1-star" class="star"><i class="fas fa-star"></i></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="review" class="form-label">Your Review</label>
+                                <textarea class="form-control" id="review" rows="4" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary px-4">Submit Review</button>
+                            </div>
+                        </form>
+                        <div id="successMessage" class="alert alert-success mt-3 d-none">
+                            Thank you for your review! It has been submitted successfully.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .rating-stars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .star-rating {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 1.5em;
+        justify-content: space-around;
+        padding: 0 0.2em;
+        text-align: center;
+        width: 5em;
+    }
+
+        .star-rating input {
+            display: none;
+        }
+
+        .star-rating label {
+            color: #ccc;
+            cursor: pointer;
+        }
+
+        .star-rating :checked ~ label {
+            color: #f90;
+        }
+
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: #fc0;
+        }
+</style>
+
+@section Scripts {
+    <script>
+        document.getElementById('reviewForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            document.getElementById('successMessage').classList.remove('d-none');
+
+            this.reset();
+
+            setTimeout(function() {
+                document.getElementById('successMessage').classList.add('d-none');
+            }, 5000);
+        });
+    </script>
+}

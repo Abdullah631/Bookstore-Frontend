@@ -1,0 +1,473 @@
+﻿@{
+    ViewData["Title"] = "Categories";
+}
+<section class="featured py-5" id="featured">
+    <div class="container">
+        <h2 class="text-center mb-5"><span class="border-bottom border-3 border-primary pb-2">Thriller</span></h2>
+
+        <div class="position-relative">
+            <div class="swiper featured-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book1.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book2.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book3.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book4.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book5.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="featured py-5" id="featured">
+    <div class="container">
+        <br />
+        <h2 class="text-center mb-5"><span class="border-bottom border-3 border-primary pb-2">Romance</span></h2>
+
+        <div class="position-relative">
+            <div class="swiper featured-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book2.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book1.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book5.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book3.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book9.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="featured py-5" id="featured">
+    <div class="container">
+        <br />
+        <h2 class="text-center mb-5"><span class="border-bottom border-3 border-primary pb-2">Action</span></h2>
+
+        <div class="position-relative">
+            <div class="swiper featured-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book8.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book7.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book6.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book1.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 position-relative"
+                                 onclick="window.location='@Url.Action("BookDetails", "Home")'"
+                                 style="cursor: pointer;">
+                                <a href="#" class="text-black position-absolute"
+                                   style="top: 10px; right: 10px; z-index: 2;"
+                                   onclick="event.stopPropagation()">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+
+                                <img src="~/image/book3.png" class="img-fluid d-block mx-auto" style="height: 200px; object-fit: contain;">
+                                <div class="text-center mt-3">
+                                    <h5 class="mb-2">Book Title 1</h5>
+                                    <div class="mb-3">
+                                        <span class="fw-bold">£15.99</span>
+                                        <span class="text-decoration-line-through text-muted ms-2">£20.99</span>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-primary w-100 mt-2"
+                                        onclick="event.stopPropagation(); addToCart(1);"
+                                        style="cursor: default !important;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+

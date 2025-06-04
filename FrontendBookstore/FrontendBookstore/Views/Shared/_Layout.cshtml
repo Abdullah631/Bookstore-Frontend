@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="~/image/book.png" type="image/png">
+    <title>@ViewData["Title"] - Bookify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="@Url.Content("~/css/site.css")">
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header class="header bg-light">
+        <div class="container py-2">
+            <div class="d-flex justify-content-between align-items-center">
+                <a asp-controller="Home" asp-action="Index" class="logo text-decoration-none fs-4 fw-bold text-dark">
+                    <i class="fas fa-book me-2"></i>Bookify
+                </a>
+
+                <form class="d-flex search-form" style="max-width: 400px;">
+                    <input class="form-control me-2" type="search" placeholder="Search here">
+                    <button class="btn btn-outline-secondary" id="search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+
+                <div class="icons d-flex gap-3">
+                    <a href="@Url.Action("Favourites", "Home")" class="fas fa-heart fs-5 text-dark"></a>
+                    <a href="@Url.Action("Cart", "Home")" class="fas fa-shopping-cart fs-5 text-dark"></a>
+                    <a href="@Url.Action("Logger", "Home")" id="login-btn" class="fas fa-user fs-5 text-decoration-none"></a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Categories">Categories</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Arrivals">Arrivals</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Reviews">Reviews</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Blogs">Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="mb-4">Our Locations</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt me-2"></i>India</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt me-2"></i>Usa</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt me-2"></i>Russia</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt me-2"></i>France</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt me-2"></i>Japan</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-map-marker-alt me-2"></i>Africa</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="mb-4">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a asp-controller="Home" asp-action="Index" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Home</a></li>
+                        <li class="mb-2"><a asp-controller="Home" asp-action="Categories" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Categories</a></li>
+                        <li class="mb-2"><a asp-controller="Home" asp-action="Arrivals" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Arrivals</a></li>
+                        <li class="mb-2"><a asp-controller="Home" asp-action="Reviews" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Reviews</a></li>
+                        <li class="mb-2"><a asp-controller="Home" asp-action="Blogs" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="mb-4">Extra Links</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="@Url.Action("UserDashboard", "Home")" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Account Info</a></li>
+                        <li class="mb-2"><a href="@Url.Action("Cart", "Home")" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Ordered Items</a></li>
+                        <li class="mb-2"><a href="@Url.Action("Privacy", "Home")" class="text-white text-decoration-none"><i class="fas fa-arrow-right me-2"></i>Privacy Policy</a></li>
+                    </ul>
+                 </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="mb-4">Contact Info</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-phone me-2"></i>+92-333-456678</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-phone me-2"></i>+92-195-434342</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="fas fa-envelope me-2"></i>bookify@gmail.com</a></li>
+                    </ul>
+                    <img src="/image/map.png" class="img-fluid mt-3" alt="">
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <div class="social-icons mb-4">
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+                <p class="mb-0">Created by <span class="fw-bold">Bookify.Inc</span> | All rights reserved!</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loader-container">
+        <img src="/image/books-loader.gif" alt="">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="@Url.Content("~/js/site.js")"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
